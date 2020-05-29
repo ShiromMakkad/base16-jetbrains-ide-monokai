@@ -19,7 +19,7 @@
   <p>See Description for details</p>
     ]]>
 </change-notes>
-<idea-version since-build="173.0"/>
+<idea-version since-build="191.0"/>
 
 <depends>com.intellij.modules.platform</depends>
 
