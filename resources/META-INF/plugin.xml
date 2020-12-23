@@ -1,7 +1,7 @@
 <idea-plugin>
 <id>com.base16.shiromm.shiromm.monokai</id>
 <name>Base16 Monokai</name>
-<version>1.0</version>
+<version>1.0.2</version>
 <vendor email="shirmak11@gmail.com" url="http://www.shirommakkad.com">Shirom Makkad</vendor>
 
 <description><![CDATA[
