@@ -1,11 +1,11 @@
 <idea-plugin>
 <id>com.base16.shiromm.shiromm.monokai</id>
 <name>Base16 Monokai</name>
-<version>1.0.2</version>
+<version>1.1.0</version>
 <vendor email="shirmak11@gmail.com" url="http://www.shirommakkad.com">Shirom Makkad</vendor>
 
 <description><![CDATA[
-  <p>This is a full IDE Monokai theme that uses the original Sublime Text colors. This doesn't use shades of pink like many other Monokai/Monokai Pro themes. Instead, it's true to the original colors.</p>
+  <p>This is a full IDE Monokai theme that uses the original Sublime Text colors. This doesn't use shades of pink like many other Monokai/Molokai Pro themes. Instead, it's true to the original colors.</p>
   <br>
   <p>---------------</p>
   <br>
@@ -14,16 +14,13 @@
 </description>
 
 <change-notes><![CDATA[
-  <p>First Version</p>
-  <br>
-  <p>See Description for details</p>
+  <p>Redesigned IDE Theme, minor editor theme changes</p>
     ]]>
 </change-notes>
-<idea-version since-build="191.0"/>
+<idea-version since-build="192.0"/>
 
 <depends>com.intellij.modules.platform</depends>
-
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="880af550-1bf2-4e04-abca-b84594a8fbaa" path="/base16-monokai.theme.json"/>
+    <themeProvider id="base16-monokai" path="/base16-monokai.theme.json"/>
   </extensions>
 </idea-plugin>
